@@ -27,7 +27,7 @@
         <div class="container">
             <h3>Latest Mars News</h3>
             <h6 style="color: #c1440e">{{ mars_information.news_title }}</h6>
-            <p>{{ mars_information.news_p}}</p>
+            <p>{{ mars_information.news_para}}</p>
         </div>
 
         <div class="container">
@@ -43,7 +43,7 @@
                     <br>
                     <h3>Mars Facts</h3>
                     <div style="max-width: 450px; max-height: 150px; font-size: 15px; margin-bottom: 65px;">
-                        {{mars_info.mars_table_read|safe}}
+                        {{mars_info.tables|safe}}
                     </div>
                 </div> <!-- col4 -->
             </div><!-- Row -->
